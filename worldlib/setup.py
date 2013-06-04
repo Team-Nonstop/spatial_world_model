@@ -6,7 +6,6 @@ from catkin_pkg.python_setup import generate_distutils_setup
 d = generate_distutils_setup(
     packages=['worldlib'],
     package_dir={'' : 'src'},
-    scripts=['scripts/spatial_world_model', 'scripts/setup_world_model'],
 )
 
 setup(**d)
